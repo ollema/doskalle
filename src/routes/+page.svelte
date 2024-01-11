@@ -1,17 +1,28 @@
 <script lang="ts">
-	import Logo from './Logo.svelte';
+	import Standard from './Standard.svelte';
+	import StandardBoxed from './StandardBoxed.svelte';
 </script>
 
-<div class="container">
+<div class="logos">
 	<div>
-		<Logo />
+		<Standard />
+	</div>
+	<div>
+		<StandardBoxed />
+	</div>
+	<div>
+		<Standard filler={true} />
+	</div>
+	<div>
+		<StandardBoxed filler={true} />
 	</div>
 </div>
 
 <style>
-	.container {
-		margin: auto;
-		width: 200px;
-		aspect-ratio: 1 / 1;
+	.logos {
+		display: flex;
+		gap: 4rem;
+		padding: 2rem;
+		align-items: center;
 	}
 </style>
