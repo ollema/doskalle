@@ -1,2 +1,17 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import Logo from './Logo.svelte';
+</script>
+
+<div class="container">
+	<div>
+		<Logo />
+	</div>
+</div>
+
+<style>
+	.container {
+		margin: auto;
+		width: 200px;
+		aspect-ratio: 1 / 1;
+	}
+</style>
