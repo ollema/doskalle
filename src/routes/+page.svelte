@@ -1,11 +1,12 @@
 <script lang="ts">
+	import logo_basic from './logo_basic.svg?raw';
 	import Standard from './Standard.svelte';
 	import StandardBoxed from './StandardBoxed.svelte';
 </script>
 
-<div class="logos">
-	<div>
-		<Standard />
+<div class="flex gap-8 p-4 items-center">
+	<div class="w-[160px]">
+		{@html logo_basic}
 	</div>
 	<div>
 		<StandardBoxed />
@@ -17,12 +18,3 @@
 		<StandardBoxed filler={true} />
 	</div>
 </div>
-
-<style>
-	.logos {
-		display: flex;
-		gap: 4rem;
-		padding: 2rem;
-		align-items: center;
-	}
-</style>
