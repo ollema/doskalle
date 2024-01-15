@@ -22,10 +22,10 @@
 		<li class="hover:text-red-700 hover:underline">
 			<Button variant={'ghost'} on:click={toggleMode} class="p-0 text-xl hover:bg-inherit">
 				<div class="hidden dark:block">
-					<Sun class="size-4" />
+					<Sun class="size-4 hover:text-red-700" />
 				</div>
 				<div class="block dark:hidden">
-					<Moon class="size-4" />
+					<Moon class="size-4 hover:text-red-700" />
 				</div>
 			</Button>
 		</li>
