@@ -23,6 +23,7 @@
 		"eslint": "^8.56.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.35.1",
+		"mode-watcher": "^0.1.2",
 		"postcss": "^8.4.33",
 		"postcss-load-config": "^5.0.2",
 		"prettier": "^3.2.2",
@@ -37,6 +38,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"bits-ui": "^0.14.0",
 		"clsx": "^2.1.0",
 		"radix-icons-svelte": "^1.2.1",
 		"tailwind-merge": "^2.2.0",

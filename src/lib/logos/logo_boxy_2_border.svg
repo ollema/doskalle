@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 640">
+  <!-- border -->
+  <path d="M 100 5 h -95 v 620 l 95 -95 l 95 95 v -620 h -95 z" fill="none" stroke="currentColor" stroke-width="10"
+    stroke-linejoin="miter" stroke-miterlimit="400" />
+
+  <svg xmlns="http://www.w3.org/2000/svg" x="20" y="20" width="160" height="570" viewBox="0 0 160 570">
+    <!-- d -->
+    <path d="M 75 0 h -30 v 150 l -15 -15 v -45 l 15 -15 l -15 -15 l -30 30 v 45 l 30 30 l 45 -45 z" fill="currentColor"
+      stroke="none" />
+
+    <!-- o -->
+    <path d="M 115 75 l -30 30 v 15 l 30 30 v -75 l 15 -15 l 30 30 v 45 l -30 30 l -15 -15 l 15 -15 v -45 z"
+      fill="currentColor" stroke="none" />
+    <path d="M 85 0 v 90 l 30 -30 v -60 z" fill="currentColor" stroke="none" />
+    <path d="M 130 0 v 45 l 30 30 v -75 z" fill="currentColor" stroke="none" />
+
+    <!-- s -->
+    <path
+      d="M 0 330 l 75 -75 v -15 l -30 -30 l -15 15 v -30 l 15 -15 v 30 l 30 -30 v -45 l -75 75 v 15 l 30 30 l 15 -15 v 30 l -15 15 v -30 l -30 30 z"
+      fill="currentColor" stroke="none" />
+
+    <!-- k -->
+    <path
+      d="M 85 135 v 120 l 30 30 v -30 l 15 -15 v 60 l 30 30 v -60 l -30 -30 l 30 -30 l -30 -30 l -15 15 l 15 15 v 15 l -15 15 v -75 z"
+      fill="currentColor" stroke="none" />
+
+    <!-- a -->
+    <path d="M 75 270 l -75 75 l 30 30 l 15 -15 l -15 -15 v -15 l 15 -15 v 75 l 30 30 z" fill="currentColor"
+      stroke="none" />
+
+    <!-- l -->
+    <path d="M 85 270 v 150 l 30 -30 v -90 z" fill="currentColor" stroke="none" />
+
+    <!-- l -->
+    <path d="M 45 405 v 120 l 30 -30 v -60 z" fill="currentColor" stroke="none" />
+
+    <!-- e -->
+    <path
+      d="M 115 405 l -30 30 v 60 l 75 75 v -120 l -30 30 v 45 l -15 -15 v -30 l 45 -45 v -15 l -30 -30 l -15 15 l 15 15 v 30 l -15 15 z"
+      fill="currentColor" stroke="none" />
+
+    <!-- top -->
+    <path d="M 0 0 v 75 l 30 -30 v -45 z" fill="currentColor" stroke="none" />
+
+    <!-- mid -->
+    <path d="M 0 150 v 45 l 22.5 -22.5 z" fill="currentColor" stroke="none" />
+    <path d="M 137.5 172.5 l 22.5 22.5 v -45 z" fill="currentColor" stroke="none" />
+    <path d="M 75 195 v 30 l -15 -15 z" fill="currentColor" stroke="none" />
+    <path d="M 0 240 v 30 l 15 -15 z" fill="currentColor" stroke="none" />
+    <path d="M 145 240 l 15 15 v -30 z" fill="currentColor" stroke="none" />
+    <path d="M 130 315 v 60 l 30 30 v -60 z" fill="currentColor" stroke="none" />
+
+    <!-- bottom -->
+    <path d="M 0 360 v 210 l 30 -30 v -150 z" fill="currentColor" stroke="none" />
+  </svg>
+</svg>

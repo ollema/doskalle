@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 610">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 650">
   <!-- border -->
-  <path d="M 100 5 h -90 v 600 h 180 v -600 h -90 z" fill="none" stroke="currentColor" stroke-width="10"
-    stroke-linejoin="miter" stroke-miterlimit="40" />
+  <path d="M 100 10 l -50 50 v 15 l -45 45 v 520 l 95 -95 l 95 95 v -520 l -45 -45 v -15 l -50 -50 z" fill="none"
+    stroke="currentColor" stroke-width="10" stroke-linejoin="miter" stroke-miterlimit="400" />
 
-  <svg viewBox="0 0 160 570">
+  <svg xmlns="http://www.w3.org/2000/svg" x="20" y="35" width="160" height="570" viewBox="0 0 160 570">
     <!-- d -->
     <path d="M 75 0 l -30 30 v 120 l -15 -15 v -45 l 15 -15 l -15 -15 l -30 30 v 45 l 30 30 l 45 -45 z"
       fill="currentColor" stroke="none" />
@@ -38,5 +38,14 @@
     <path
       d="M 115 405 l -30 30 v 60 l 75 75 v -120 l -30 30 v 45 l -15 -15 v -30 l 45 -45 v -15 l -30 -30 l -15 15 l 15 15 v 30 l -15 15 z"
       fill="currentColor" stroke="none" />
+
+    <!-- mid -->
+    <path d="M 130 315 v 12 l 30 30 v -12 z" fill="currentColor" stroke="none" />
+    <path d="M 130 339 v 12 l 30 30 v -12 z" fill="currentColor" stroke="none" />
+    <path d="M 130 363 v 12 l 30 30 v -12 z" fill="currentColor" stroke="none" />
+
+    <!-- bottom -->
+    <path d="M 9 370 v 130 h -9 v -10 h 9 v 60 l 10 -10 v -40 h 9 v -10 h -9 v -110 z" fill="currentColor"
+      stroke="none" />
   </svg>
 </svg>
