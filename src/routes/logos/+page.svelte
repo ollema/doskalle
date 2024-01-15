@@ -161,7 +161,7 @@
 </div>
 
 <style lang="postcss">
-	.logos > :global(path) {
+	.logos :global(path) {
 		filter: url(#noisy-distort);
 	}
 </style>
