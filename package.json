@@ -12,6 +12,7 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
+		"@fontsource/unifrakturcook": "^5.0.18",
 		"@sveltejs/adapter-vercel": "^4.0.4",
 		"@sveltejs/kit": "^2.3.2",
 		"@sveltejs/vite-plugin-svelte": "^3.0.1",
