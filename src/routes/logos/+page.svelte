@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { Slider } from '$lib/components/ui/slider';
+
 	import logo_basic_1 from '$lib/logos/logo_basic_1.svg?raw';
 	import logo_basic_2 from '$lib/logos/logo_basic_2.svg?raw';
 	import logo_filled_1 from '$lib/logos/logo_filled_1.svg?raw';
@@ -17,7 +19,34 @@
 	import logo_boxy_2_border from '$lib/logos/logo_boxy_2_border.svg?raw';
 	import logo_boxy_3_border from '$lib/logos/logo_boxy_3_border.svg?raw';
 	import logo_boxy_4_border from '$lib/logos/logo_boxy_4_border.svg?raw';
+
+	import { web_storage } from 'svelte-web-storage';
+
+	const noise = web_storage('noise', 30);
+	let value = [$noise];
+	$: $noise = value[0];
 </script>
+
+<svg xmlns="http://www.w3.org/2000/svg" class="absolute h-0 w-0 overflow-hidden">
+	<defs>
+		<filter id="noisy-distort">
+			<feTurbulence type="turbulence" baseFrequency="0.02" numOctaves="3" result="turbulence" />
+			<feDisplacementMap
+				in2="turbulence"
+				in="SourceGraphic"
+				scale={(10 * value[0]) / 100}
+				xChannelSelector="R"
+				yChannelSelector="G"
+			/>
+		</filter>
+	</defs>
+</svg>
+
+<div class="mb-4 flex w-full items-center justify-center gap-4">
+	<div class="text-xl">noise:</div>
+	<Slider bind:value min={0} max={100} step={1} class="w-full max-w-[80px]" />
+	<div class="w-4 text-xl">{value}</div>
+</div>
 
 <div class="w-full text-center text-2xl">without border</div>
 <div
@@ -124,3 +153,9 @@
 		{@html logo_boxy_4_border}
 	</div>
 </div>
+
+<style lang="postcss">
+	:global(path) {
+		filter: url(#noisy-distort);
+	}
+</style>

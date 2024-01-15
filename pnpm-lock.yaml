@@ -71,6 +71,9 @@ devDependencies:
   svelte-check:
     specifier: ^3.6.3
     version: 3.6.3(postcss-load-config@5.0.2)(postcss@8.4.33)(svelte@4.2.8)
+  svelte-web-storage:
+    specifier: ^0.0.7
+    version: 0.0.7(svelte@4.2.8)
   tailwind-merge:
     specifier: ^2.2.0
     version: 2.2.0
@@ -2748,6 +2751,15 @@ packages:
       strip-indent: 3.0.0
       svelte: 4.2.8
       typescript: 5.3.3
+    dev: true
+
+  /svelte-web-storage@0.0.7(svelte@4.2.8):
+    resolution: {integrity: sha512-DuItS4zbj//m7UdUQz6dihEWtw4kFFYhtSTJK9iRbmT5nqJqDh94F0WrjClcHpKlHQzWhcWH0y8b/P2BLabRXA==}
+    peerDependencies:
+      svelte: ^4.0.0
+    dependencies:
+      esm-env: 1.0.0
+      svelte: 4.2.8
     dev: true
 
   /svelte@4.2.8:
