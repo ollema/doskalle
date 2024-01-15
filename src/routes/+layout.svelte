@@ -9,6 +9,11 @@
 	import { Moon, Sun } from 'radix-icons-svelte';
 </script>
 
+<svelte:head>
+	<title>dö skalle</title>
+	<meta name="description" content="dö skalle heavy metal vanguard" />
+</svelte:head>
+
 <ModeWatcher />
 
 <nav class="flex w-full items-center justify-center">

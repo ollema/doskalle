@@ -27,6 +27,11 @@
 	$: $noise = value[0];
 </script>
 
+<svelte:head>
+	<title>logos</title>
+	<meta name="description" content="dö skalle heavy metal vanguard" />
+</svelte:head>
+
 <svg xmlns="http://www.w3.org/2000/svg" class="absolute h-0 w-0 overflow-hidden">
 	<defs>
 		<filter id="noisy-distort">
