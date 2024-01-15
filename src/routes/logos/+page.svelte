@@ -14,56 +14,56 @@
 </script>
 
 <div class="w-full text-center text-2xl">without border</div>
-<div class="flex w-full items-center justify-center gap-8 p-4">
-	<div class="flex w-[120px] flex-col items-center gap-4 hover:text-red-700">
+<div class="grid w-full grid-cols-2 place-items-center gap-8 pt-4 md:grid-cols-4 lg:grid-cols-8">
+	<div class="flex w-[120px] flex-col items-center justify-center gap-4 hover:text-red-700">
 		<div class="text-xl">basic 1</div>
 		{@html logo_basic_1}
 	</div>
-	<div class="flex w-[120px] flex-col items-center gap-4 hover:text-red-700">
+	<div class="flex w-[120px] flex-col items-center justify-center gap-4 hover:text-red-700">
 		<div class="text-xl">basic 2</div>
 		{@html logo_basic_2}
 	</div>
-	<div class="flex w-[120px] flex-col items-center gap-4 hover:text-red-700">
+	<div class="flex w-[120px] flex-col items-center justify-center gap-4 hover:text-red-700">
 		<div class="text-xl">filled 1</div>
 		{@html logo_filled_1}
 	</div>
-	<div class="flex w-[120px] flex-col items-center gap-4 hover:text-red-700">
+	<div class="flex w-[120px] flex-col items-center justify-center gap-4 hover:text-red-700">
 		<div class="text-xl">filled 2</div>
 		{@html logo_filled_2}
 	</div>
-	<div class="flex w-[120px] flex-col items-center gap-4 hover:text-red-700">
+	<div class="flex w-[120px] flex-col items-center justify-center gap-4 hover:text-red-700">
 		<div class="text-xl">filled 3</div>
 		{@html logo_filled_3}
 	</div>
-	<div class="flex w-[120px] flex-col items-center gap-4 hover:text-red-700">
+	<div class="flex w-[120px] flex-col items-center justify-center gap-4 hover:text-red-700">
 		<div class="text-xl">boxy 1</div>
 		{@html logo_boxy_1}
 	</div>
-	<div class="flex w-[120px] flex-col items-center gap-4 hover:text-red-700">
+	<div class="flex w-[120px] flex-col items-center justify-center gap-4 hover:text-red-700">
 		<div class="text-xl">boxy 2</div>
 		{@html logo_boxy_2}
 	</div>
-	<div class="flex w-[120px] flex-col items-center gap-4 hover:text-red-700">
+	<div class="flex w-[120px] flex-col items-center justify-center gap-4 hover:text-red-700">
 		<div class="text-xl">boxy 3</div>
 		{@html logo_boxy_3}
 	</div>
 </div>
 
 <div class="w-full pt-4 text-center text-2xl">with border</div>
-<div class="flex w-full items-center justify-center gap-8 p-4">
+<div class="grid w-full grid-cols-2 place-items-center gap-8 p-4 md:grid-cols-4 lg:grid-cols-8">
 	<!-- <div class="flex w-[150px] flex-col items-center gap-4 hover:text-red-700">
 		<div class="text-xl">basic 1</div>
 		{@html logo_basic_1_border}
 	</div> -->
-	<div class="flex w-[150px] flex-col items-center gap-4 hover:text-red-700">
+	<div class="flex w-[120px] flex-col items-center justify-center gap-4 hover:text-red-700">
 		<div class="text-xl">boxy 1</div>
 		{@html logo_boxy_1_border}
 	</div>
-	<div class="flex w-[150px] flex-col items-center gap-4 hover:text-red-700">
+	<div class="flex w-[120px] flex-col items-center justify-center gap-4 hover:text-red-700">
 		<div class="text-xl">boxy 2</div>
 		{@html logo_boxy_2_border}
 	</div>
-	<div class="flex w-[150px] flex-col items-center gap-4 hover:text-red-700">
+	<div class="flex w-[120px] flex-col items-center justify-center gap-4 hover:text-red-700">
 		<div class="text-xl">boxy 3</div>
 		{@html logo_boxy_3_border}
 	</div>
