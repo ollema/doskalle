@@ -30,7 +30,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" class="absolute h-0 w-0 overflow-hidden">
 	<defs>
 		<filter id="noisy-distort">
-			<feTurbulence type="turbulence" baseFrequency="0.02" numOctaves="3" result="turbulence" />
+			<feTurbulence
+				type="turbulence"
+				baseFrequency="0.02"
+				numOctaves="3"
+				result="turbulence"
+				seed="666"
+			/>
 			<feDisplacementMap
 				in2="turbulence"
 				in="SourceGraphic"
@@ -50,7 +56,7 @@
 
 <div class="w-full text-center text-2xl">without border</div>
 <div
-	class="grid w-full grid-cols-2 place-items-center gap-8 pt-4 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-9"
+	class="logos grid w-full grid-cols-2 place-items-center gap-8 pt-4 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-9"
 >
 	<div
 		class="flex w-full max-w-[160px] flex-col items-center justify-center gap-4 hover:text-red-700"
@@ -108,7 +114,7 @@
 
 <div class="w-full pt-12 text-center text-2xl">with border</div>
 <div
-	class="grid w-full grid-cols-2 place-items-center gap-8 pt-4 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-9"
+	class="logos grid w-full grid-cols-2 place-items-center gap-8 pt-4 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-9"
 >
 	<div class="flex w-full max-w-[160px] flex-col items-center gap-4 hover:text-red-700">
 		<div class="text-xl">basic 1</div>
@@ -155,7 +161,7 @@
 </div>
 
 <style lang="postcss">
-	:global(path) {
+	.logos > :global(path) {
 		filter: url(#noisy-distort);
 	}
 </style>
