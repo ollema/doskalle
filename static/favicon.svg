@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <!-- background -->
+  <path d="M 0 0 h 180 v 180 h -180 z" fill="black" stroke="none" />
+
+  <!-- d -->
+  <path d="M 85 15 l -30 30 v 105 l -15 -15 v -45 l 15 -15 l -15 -15 l -30 30 v 45 l 30 30 l 45 -45 z" fill="white"
+    stroke="none" />
+
+  <!-- o -->
+  <path d="M 125 75 l -30 30 v 15 l 30 30 v -75 l 15 -15 l 30 30 v 45 l -30 30 l -15 -15 l 15 -15 v -45 z" fill="white"
+    stroke="none" />
+  <path d="M 95 15 l 30 30 v 0 h -30 z" fill="white" stroke="none" />
+  <path d="M 95 90 l 30 -30 v -7 h -30 z" fill="white" stroke="none" />
+</svg>
